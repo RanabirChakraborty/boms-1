@@ -14,6 +14,20 @@
 
     <packaging>pom</packaging>
 
+    <scm>
+        <connection>scm:git:git://github.com/jboss-set/boms.git</connection>
+        <developerConnection>scm:git:git@github.com:jboss-set/boms.git</developerConnection>
+        <url>https://github.com/jboss-set/boms</url>
+    </scm>
+
+    <distributionManagement>
+        <repository>
+            <id>jboss-org-jboss-repository-group</id>
+            <name>Public JBoss Repository Group</name>
+            <url>https://repository.jboss.org/nexus/content/groups/public-jboss/</url>
+        </repository>
+    </distributionManagement>
+
     <modules>
         <module>javaee7-api</module>
         <module>javaee7-impl</module>
